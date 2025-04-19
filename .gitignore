@@ -1,0 +1,23 @@
+# env
+.env
+
+# Python
+portfolio_project/__pycache__
+
+# Virtual Environment
+venv/
+
+# Django stuff:
+*.log
+db.sqlite3
+/staticfiles/
+*.pot
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
