@@ -17,10 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include
 from django.urls import path
-from works.views import portfolio
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', portfolio, name='portfolio'),
     path('hello/', include('hello.urls')),
 ]
